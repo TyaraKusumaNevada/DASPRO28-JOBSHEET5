@@ -7,9 +7,7 @@ public class PemilihanPercobaan28 {
         System.out.println("masukkan angka: ");
         int angka = input28.nextInt();
 
-        if (angka % 2 == 0)
-        System.out.println("Angka "+angka+" bilangan genap");
-        else
-        System.out.println("Angka "+angka+" bilangan ganjil");
+        String JenisAngka = (angka % 2 == 0) ? "genap" : "ganjil";
+        System.out.println("Angka " +angka+ " bilangan "  +JenisAngka);
     }
 }
